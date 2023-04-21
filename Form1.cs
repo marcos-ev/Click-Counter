@@ -24,7 +24,7 @@ namespace TimerClicker
         {
             //timer
 
-            _ticks++;
+            _ticks++; 
             label1.Text = "Timer: " + _ticks;
 
 
@@ -42,7 +42,7 @@ namespace TimerClicker
 
         private void reset_Click(object sender, EventArgs e)
         {
-            //reset
+            //reset a
 
             timer1.Stop();
             _click = 0;
